@@ -1,0 +1,38 @@
+2.)
+
+(6,4)
+(6,3)
+(6,5)
+(7,5)
+(8,5)
+(8,6)
+(8,7)
+(8,8)
+(7,8)
+(6,6)
+(5,4)
+(4,4)
+
+4.)
+
+(6,4)
+(5,4)
+(6,5)
+(6,3)
+(4,4)
+(6,6)
+(7,5)
+(3,4)
+(4,5)
+(8,5)
+(2,4)
+(4,6)
+
+Let's define "open tiles" as adjacent tiles that can be accessed because they're a walk way and there's no wall in between.
+
+Mazestack then, in a way, prioritizes exploring west, then moving south, then moving east, then moving north.
+
+This is because open tiles in the west are pushed last into the stack and are thus always on top, above southern open tiles, which are above... and so on.
+
+Mazequeue on the otherhand first visits all open tiles of its current refence tile in a N->E->S->W order before moving to the next reference tile (in the same order). Effectively it looks like mazequeue is slowly exploring in all directions.
+
