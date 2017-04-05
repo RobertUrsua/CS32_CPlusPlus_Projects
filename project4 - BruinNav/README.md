@@ -3,7 +3,7 @@ The weird structure of this C++ project (absence of header files for classes, po
 
 # BruinNav
 
-BruinNav is a text-based turn-by-turn navigation system for Los Angeles. It presents the shortest paths between two registered landmarks by applying the A* algorithm. The GeoSpatial data for this project was retrieved from the openstreetmap.org. This project was the final programming assignment for my Data Structures and Algorithms course at UCLA (CS 32)
+BruinNav is a text-based turn-by-turn navigation system for Los Angeles. It presents the shortest paths between two registered landmarks by applying the A* algorithm. The GeoSpatial data for this project was retrieved from the openstreetmap.org by our professor. This project was the final programming assignment for my Data Structures and Algorithms course at UCLA (CS 32)
 
 ## Things I learned, concepts I applied, and challenges I overcame:
 * I learned how to properly manage, organize, and annotate large programs
@@ -15,3 +15,12 @@ BruinNav is a text-based turn-by-turn navigation system for Los Angeles. It pres
     * Priority queue for heirarchy of nodes in A* Algorithm 
     * Map for associating Landmarks and GeoCoordinates with the roads in which they're located.
   * I implemented the A* algorithm after some self study.
+
+### The only files that I did NOT write are:
+* CareysMain.cpp
+* spec.pdf
+* provided.h
+* validlocs.txt
+* testmap.txt
+* mapdata.txt
+* testBruinNav.cpp
