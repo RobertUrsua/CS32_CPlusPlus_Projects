@@ -1,4 +1,4 @@
-# CS32_WIN17
+# CS32_CPlusPlus_Projects (Taken Winter 2017)
 My CS32 Data Structures &amp; Algorithms Homeworks &amp; Projects
 
 My best work can be found in:
