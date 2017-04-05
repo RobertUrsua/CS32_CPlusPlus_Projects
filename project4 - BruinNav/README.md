@@ -1,3 +1,6 @@
+## Notice!
+The weird structure of this C++ project (absence of header files for classes, pointers to a redundant class etc) is due to the restrictions set by my professor. Essentially, we were given this weird code skeleton to ensure that our classes didn't add public members and functions to the classes that we were tasked to implement.
+
 # BruinNav
 
 BruinNav is a text-based turn-by-turn navigation system for Los Angeles. It presents the shortest paths between two registered landmarks by applying the A* algorithm. The GeoSpatial data for this project was retrieved from the openstreetmap.org. This project was the final programming assignment for my Data Structures and Algorithms course at UCLA (CS 32)
